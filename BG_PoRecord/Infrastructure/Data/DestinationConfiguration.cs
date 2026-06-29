@@ -11,7 +11,6 @@ namespace BG_PoRecord.Infrastructure.Data
     internal class DestinationConfiguration : IDestinationConfiguration
     {
         public static string appName = ConfigurationManager.AppSettings["appName"];
-
         public bool ChangeEventsSupported()
         {
             return true;
